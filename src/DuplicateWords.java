@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
 //a a a a a a a a a a a a a a a a
 //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
+      //  \b(\w+)( \1\b)+
 public class DuplicateWords {
     public static void main ( String[] args ) {
         String regex = "\\b(\\w+)( \\1\\b)+";
